@@ -58,6 +58,7 @@ def main(api):
         except Exception as err_msg:
                     print(f"Ошибка: {err_msg}")
                     exit()
+           
     print("Готово")
     exit()
 
