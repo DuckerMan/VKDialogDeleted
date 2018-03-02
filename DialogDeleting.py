@@ -19,6 +19,7 @@ app_id = 6371584
 offset = 20
 unreaded = 0  # 0 - удаление всех диалогов(не считая отсупа offset), 1 - непрочитанные
 
+
 def auth(login, password, AppID):
 
     vk_session = vk_api.VkApi(login, password, AppID)
@@ -58,8 +59,9 @@ def main(api):
                     print(f"Ошибка: {err_msg}")
                     exit()
     print("Готово")
+    exit()
 
-
+    
 vk = auth(login, password, app_id)
 while True:
     main(vk)
