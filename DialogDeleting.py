@@ -17,7 +17,7 @@ login = "login"
 password = "password"
 app_id = 6371584
 offset = 20
-unreaded = 0  # 0 - удаление всех диалогов(не считая отсупа offset), 1 - непрочитанные
+unreaded = 0  # 0 - удаление всех диалогов(не считая отступа offset), 1 - непрочитанные
 
 
 def auth(login, password, AppID):
